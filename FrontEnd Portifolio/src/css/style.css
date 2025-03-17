@@ -1,0 +1,84 @@
+body {
+    min-height: 100vh;
+    background-image: url(../img/Background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: "Roboto Condensed", sans-serif;
+    color: white;
+    gap: 0px;
+}
+
+hr {
+    width: 300px;
+}
+
+.card {
+    background: radial-gradient(circle, rgb(28, 43, 211), rgb(0, 0, 0) 150%);
+    width: 350px;
+    height: 500px;
+    margin-top: 100px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 60px;
+    border: solid 3px rgb(19, 72, 219);
+    box-shadow: -20px 60px 100px black;
+}
+
+.card img {
+    width: 180px;
+    border-radius: 100px;
+    position: absolute;
+    transform: translateY(-250px);
+    border: solid 5px rgb(19, 72, 219); 
+}
+
+.card .nome {
+    margin-top: 70px;
+    font-size: 40px;
+}
+
+.card .descricao {
+    transform: translateY(16px);
+    font-size: 20px;
+}
+
+.card .texto-descricao {
+    text-align: center;
+    font-size: 14px;
+    transform: translateY(30px);
+    border-top: solid rgb(19, 72, 219);
+    border-bottom: solid rgb(19, 72, 219);
+    padding: 10px;
+}
+
+.card .links {
+    background: radial-gradient(circle, rgb(28, 43, 211), rgb(0, 0, 0) 250%);
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 200px;
+    transform: translateY(55px);
+    padding: 10px;
+    border-radius: 20px;
+    border: solid 3px rgb(19, 72, 219); 
+}
+
+.card .links a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.cesumar-logo {
+    width: 250px;
+    position: absolute;
+    left: 50px;
+    top: 0px
+}
